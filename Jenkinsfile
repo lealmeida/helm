@@ -16,7 +16,7 @@ node {
         sh "git add ."
         def message = "New chart version : ${env.BUILD_NUMBER} - ${env.BRANCH_NAME}"
         sh "git commit -m '${message}'"
-        sh "git push"
+        sh "git push origin master"
 
     } catch (err) {
         currentBuild.result = 'FAILURE'
