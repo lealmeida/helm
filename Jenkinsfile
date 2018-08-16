@@ -14,6 +14,8 @@ node {
         sh "git add ."
         def message = "New chart version : ${env.BUILD_NUMBER} - ${env.BRANCH_NAME}"
         sh "git commit -m '${message}'"
+        sh "git config  user.email 'you@example.com'"
+        sh "git config  user.name 'Your Name'"
         sh "git push"
 
     } catch (err) {
