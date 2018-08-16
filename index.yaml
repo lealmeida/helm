@@ -3,9 +3,9 @@ entries:
   consul:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-15T17:52:25.977199681-03:00
+    created: 2018-08-16T16:11:08.647392589-03:00
     description: Consul Server Configuration
-    digest: d36ae9a71c92025db4baee5f899cf1b0104a516ab4262ca044d910eae629c137
+    digest: 5a6a42481a86aedb664dd3a1e395c47b5bc94912fde652aa7bcfff30a69c72a1
     name: consul
     urls:
     - consul-0.1.0.tgz
@@ -13,9 +13,9 @@ entries:
   kong:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-15T17:52:25.977731011-03:00
+    created: 2018-08-16T16:11:08.647626261-03:00
     description: A Helm chart for Kubernetes
-    digest: 0387f3c73780d125e204f90b69216dcce0aa35249699104c0db6f06b97155bc0
+    digest: 5a699e78b6581c0f31213999daec793a2267e12c0661110f73d7e9d31f92b9e1
     name: kong
     urls:
     - kong-0.1.0.tgz
@@ -23,9 +23,9 @@ entries:
   mongodb:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-15T17:52:25.978189957-03:00
+    created: 2018-08-16T16:11:08.647843898-03:00
     description: A Helm chart for Kubernetes
-    digest: 6060d7cc6a6c8876bab6e88ca1bc8d058267e8ed60ab021402520617d738ebd1
+    digest: 32212ce967a921016d43e25c1f010c01eb5d70f5a60f1c47a5bf588dc0e9a204
     name: mongodb
     urls:
     - mongodb-0.1.0.tgz
@@ -33,11 +33,11 @@ entries:
   rabbitmq:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-15T17:52:25.978662519-03:00
+    created: 2018-08-16T16:11:08.648062801-03:00
     description: A Helm chart for Kubernetes
-    digest: d21ae878e74366953f6c094a795017c805574e9e89a2b7c73ffdaa4b43d2ddfa
+    digest: 3c1d3552fe605c723133e08fab07289e8e9fd7c3308b17c1c8c9c48b9581c08b
     name: rabbitmq
     urls:
     - rabbitmq-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-15T17:52:25.975550565-03:00
+generated: 2018-08-16T16:11:08.647015322-03:00
